@@ -17,7 +17,7 @@ var numeros = 0...100
 
 for n in numeros {
     
-    var resultado = ""
+    var resultado : String = ""
     
     if n % 2 == 0 {
         resultado = resultado + "\tPar"
